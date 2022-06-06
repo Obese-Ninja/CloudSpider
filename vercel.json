@@ -1,0 +1,9 @@
+{
+  "routes": [
+    {
+      "src": "/images/(.*)",
+      "headers": { "cache-control": "s-maxage=86400" },
+      "dest": "/images/$1"
+    }
+  ]
+}
